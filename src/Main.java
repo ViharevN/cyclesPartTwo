@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         //циклы часть 2
         //домашнее задание 1
+        //задание 1
 
 
         int total = 0;
@@ -16,7 +17,7 @@ public class Main {
             System.out.println("Месяц " + months + " , сумма накоплений равна " + total + " рублей");
         }
 
-        //домашнее задание 2
+        //задание 2
 
         int a = 0;
         while (a < 10) {
@@ -31,7 +32,7 @@ public class Main {
         System.out.println();
         int y = 12_000_000;
 
-        //домашнее задание 3
+        //задание 3
 
         int population = 12_000_000;//население
         int popPlus = 17;//рождаемость
@@ -41,6 +42,17 @@ public class Main {
             System.out.println("год " + i + ", численность насленения составляет " + population + " человек");
         }
 
+        //домашнее задание часть 2
+        //задание 1
+
+        System.out.println();
+        int totalCash = 15000;//начальная сумма вклада
+        months = 0;
+        while (totalCash <= 12_000_000) {
+            totalCash = totalCash +(totalCash/100*7);//считаем вклад + процент от вклада
+            months++;//месяцы
+            System.out.println("месяц " + months + ", сумма накоплений " + totalCash);
+        }
 
 
     }
