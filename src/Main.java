@@ -67,6 +67,19 @@ public class Main {
             }
         }
 
+        //задание 3
+
+        System.out.println();
+        totalCash = 15000;
+        months = 0;//в 9 годах у нас 12*9=108 месяцев
+        while (months <= 108) {
+            totalCash = totalCash +(totalCash/100*7);//считаем вклад + процент от вклада
+            months++;//месяцы
+            if ( months % 6 ==0 ) {
+                System.out.println("месяц " + months + ", сумма накоплений " + totalCash);
+            }
+        }
+
 
 
 
