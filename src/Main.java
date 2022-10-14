@@ -33,13 +33,15 @@ public class Main {
 
         //домашнее задание 3
 
-        int Y = 12_000_000;//население
-        int X = 17;//рождаемость
-        int Z = 8;//смертность
-        for (int i = 0; i<=12; i++) {
-            Y = Y + ((Y/1000)*(X-Z));
-            System.out.println("год " + i + ", численность насленения составляет " + Y + " человек");
+        int population = 12_000_000;//население
+        int popPlus = 17;//рождаемость
+        int popMinus = 8;//смертность
+        for (int i = 1; i<=12; i++) {
+            population = population + ((population/1000)*(popPlus-popMinus));
+            System.out.println("год " + i + ", численность насленения составляет " + population + " человек");
         }
+
+
 
     }
 }
