@@ -54,6 +54,21 @@ public class Main {
             System.out.println("месяц " + months + ", сумма накоплений " + totalCash);
         }
 
+        //задание 2
+
+        System.out.println();
+        totalCash = 15000;
+        months = 0;
+        while (totalCash <= 12_000_000) {
+            totalCash = totalCash +(totalCash/100*7);//считаем вклад + процент от вклада
+            months++;//месяцы
+            if ( months % 6 ==0 ) {
+                System.out.println("месяц " + months + ", сумма накоплений " + totalCash);
+            }
+        }
+
+
+
 
     }
 }
