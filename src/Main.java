@@ -15,5 +15,17 @@ public class Main {
             System.out.println(total + " кэш");
             System.out.println("Месяц " + months + " , сумма накоплений равна " + total + " рублей");
         }
+
+        //домашнее задание 2
+
+        int a = 0;
+        while (a < 10) {
+            a++;
+            System.out.print(a + " ");
+        }
+        System.out.println();
+        for (a = 10 ; a >= 1 ; a--) {
+            System.out.print(a + " ");
+        }
     }
 }
