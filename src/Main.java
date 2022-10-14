@@ -27,5 +27,19 @@ public class Main {
         for (a = 10 ; a >= 1 ; a--) {
             System.out.print(a + " ");
         }
+
+        System.out.println();
+        int y = 12_000_000;
+
+        //домашнее задание 3
+
+        int Y = 12_000_000;//население
+        int X = 17;//рождаемость
+        int Z = 8;//смертность
+        for (int i = 0; i<=12; i++) {
+            Y = Y + ((Y/1000)*(X-Z));
+            System.out.println("год " + i + ", численность насленения составляет " + Y + " человек");
+        }
+
     }
 }
