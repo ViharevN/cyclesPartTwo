@@ -99,6 +99,18 @@ public class Main {
                 System.out.println(year + ", можно наблюдать комету");
             }
         }
+        //задание 2
+
+        System.out.println();
+        int number = 0;
+        while (number < 10) {
+            number++;
+            System.out.println("2*"+number+"="+number*2);
+        }
+        System.out.println();
+        for (int i = 1; i<=10;i++) {
+            System.out.println("2*"+i+"="+i*2);
+        }
 
 
 
