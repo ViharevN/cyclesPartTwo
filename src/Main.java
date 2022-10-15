@@ -30,7 +30,6 @@ public class Main {
         }
 
         System.out.println();
-        int y = 12_000_000;
 
         //задание 3
 
@@ -80,6 +79,14 @@ public class Main {
             }
         }
 
+        //задание 4
+
+        System.out.println();
+        int friday = 7;//первое число пятницы в месяце
+        int days = 31;//количество дней в месяце
+        for (int i = friday; i < days; i+=7) {
+            System.out.println("Сегодня пятница, " + i + "-е число. Необходимо подготовить отчет.");
+        }
 
 
 
