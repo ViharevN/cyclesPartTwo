@@ -37,7 +37,7 @@ public class Main {
         int popPlus = 17;//рождаемость
         int popMinus = 8;//смертность
         for (int i = 1; i<=12; i++) {
-            population = population + ((population/1000)*(popPlus-popMinus));
+            population = population + (population/1000)*(popPlus-popMinus);
             System.out.println("год " + i + ", численность насленения составляет " + population + " человек");
         }
 
